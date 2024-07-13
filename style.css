@@ -1,0 +1,224 @@
+
+html, body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0;
+    margin: 0;
+    background-color: #e2e8f0;
+}
+
+.container {
+    display: grid;
+}
+
+.sidebar {
+    grid-column:1/2;
+    grid-row:1/4 ;
+}
+.main-header {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.content-card {
+    display: flex;
+    
+}
+
+.sidebar {
+    font-weight: 500;
+    background-color: #1a92d5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+    padding: 20px 30px;
+}
+
+.dashboard {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+.dashboard img {
+    width: 28px;
+    height: 28px;
+    color: white;
+}
+
+.menu-1, .menu-2 {
+    margin-top: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    font-size: 12px;
+
+}
+.home > div {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.home  img {
+    width: 20px;
+    height: 20px; 
+}
+
+/* End Sidebar */
+
+/* Header */
+
+.main-header {
+    background-color: whitesmoke;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+}
+input {
+    border-color: none;
+    border: none;
+    background-color:#e2e8f0 ;
+    width: 850px;
+    height: 30px;
+    border-radius: 50px;
+}
+.main-header .upper-header .header-1 .search-area {
+    display: flex;
+    align-items: center;
+
+}
+.main-header .upper-header .header-1
+.search-area img {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+.main-header .header-2 .account-area {
+    display: flex;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.header-2 .bell-icon img {
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
+}
+.header-2 .account-photo img {
+    margin-right: 20px;
+}
+.header-2 .account-name {
+    font-weight: 500;
+}
+
+.lower-header {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    align-items: center;
+    
+}
+
+.lower-header .header-3 {
+    display: flex;
+    gap: 20px;
+}
+
+.search-area img, .account-area img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.header-3 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+.header-3 span {
+    font-size: 12px;
+}
+.lower-header .header-4 .menu-button {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 20px;
+}
+.button-1, .button-2, .button-3 {
+    background-color: #1a92d5;
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Content */
+
+.main-content {
+    background-color: #e2e8f5;
+    padding: 50px 50px;
+ 
+}
+ .card-1 {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(236, 177, 12);
+}
+.announcement-card, .trend-list {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    /* margin: 50px; */
+}
+.trend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+   
+}
+
+.trend img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    
+}
+
+.main-content {
+    display: flex;
+}
+
+/* .content-left {
+}
+
+.content-right {
+} */
+
+
+
+
+
+
+
+
